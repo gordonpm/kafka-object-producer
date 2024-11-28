@@ -12,11 +12,11 @@ The producer config is created programmatically using ProducerFactory.
 
 
 3. Curl to send customer object to Kafka:  
-curl --location --request POST 'http://localhost:9191/producer-app/publish' \
+<em>curl --location --request POST 'http://localhost:9191/producer-app/publish' \
 --header 'Content-Type: application/json' \
 --data-raw '{
 "id": "927834",
 "name": "John",
 "email": "john@email.com",
 "phone": "645365445"
-}'
+}'</em>

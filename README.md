@@ -4,11 +4,11 @@ The producer config is created programmatically using ProducerFactory.
 
 ### How to Run
 1. Start Zookeper with this command:  
-   <em>bin/windows/zookeeper-server-start.bat</em>  
+   <em>bin/windows/zookeeper-server-start.bat config/zookeeper.properties</em>  
 
 
 2. Start Kafka server with this command:  
-   <em>bin/windows/kafka-server-start.bat</em>
+   <em>bin/windows/kafka-server-start.bat config/server.properties</em>
 
 
 3. Curl to send customer object to Kafka:  

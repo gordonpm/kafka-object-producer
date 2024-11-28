@@ -1,6 +1,6 @@
 ## Project Overview
 This project demonstrates how to send objects over Kafka. It is implemented using Spring Boot. 
-The producer config is created programmatically using ProducerConfig and ProducerFactory.
+The producer config is created programmatically using ProducerFactory.
 
 ### How to Run
 1. Start Zookeper with this command:  
